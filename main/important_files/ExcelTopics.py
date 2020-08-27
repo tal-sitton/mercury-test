@@ -2,12 +2,30 @@ from enum import Enum
 
 
 class Topics(Enum):
-    ScouterName = "Scouter Name"
-    TeamNumber = "Team Number"
-    MatchNumber = "Match Number (pr02/q01/p04)"
-    MovedFromSectorLine = "Moved from Sector Line?"
-    A_PowerCellsScoredInlow = "(A) Power Cells scored in low"
-    A_PowerCellsMissedInLow = "(A) Power Cells missed in low"
-    A_PowerCellsScoredInHigh_2_Hexagon = "(A) Power Cells scored in High - 2 (Hexagon)"
-    A_PowerCellsScoredInHigh_3_Circle = "(A) Power Cells scored in High - 3 (Circle)"
-    A_PowerCellsMissedInHigh = "(A) Power Cells missed in High"
+    Scouter_Name = 'Scouter Name'
+    Team_Number = 'Team Number'
+    MatchNumber = 'Match Number (pr02/q01/p04)'
+    Power_Cells_on_start = 'Power Cells on start'
+    Moved_from_Sector_Line = 'Moved from Sector Line?'
+    A_Power_Cells_scored_in_low = '(A) Power Cells scored in low'
+    A_Power_Cells_missed_in_low = '(A) Power Cells missed in low'
+    A_Power_Cells_scored_in_High__2_Hexagon = '(A) Power Cells scored in High - 2 (Hexagon)'
+    A_Power_Cells_scored_in_High__3_Circle = '(A) Power Cells scored in High - 3 (Circle)'
+    A_Power_Cells_missed_in_High = '(A) Power Cells missed in High'
+    Power_Cells_scored_in_low = 'Power Cells scored in low'
+    Power_Cells_missed_in_low = 'Power Cells missed in low'
+    Power_Cells_scored_in_High__2_Hexagon = 'Power Cells scored in High - 2 (Hexagon)'
+    Power_Cells_scored_in_High__3_Circle = 'Power Cells scored in High - 3 (Circle)'
+    Power_Cells_missed_in_High = 'Power Cells missed in High'
+    Number_of_Cycles = 'Number of Cycles'
+    Rotation_Control = 'Rotation Control'
+    Position_Control = 'Position Control'
+    Did_the_robot_play_defensively = 'Did the robot play defensively?'
+    Defense_Comments = 'Defense Comments'
+    Climbed = 'Climbed?'
+    Climbed_When = 'Climbed When?'
+    Is_Level = 'Is Level?'
+    Climbing_Comments = 'Climbing Comments'
+    Did_The_Robot_Break = 'Did The Robot Break?'
+    Did_The_Robot_Get_A_Card = 'Did The Robot Get A Card?'
+    Comments = 'Comments'
